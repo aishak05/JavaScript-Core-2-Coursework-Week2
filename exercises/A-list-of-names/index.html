@@ -13,6 +13,22 @@
       -->
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+      function listOfNames(people){
+      let content = document.querySelector("#content");
+
+      people.forEach(element => {
+      let h1Element = document.createElement("h1");
+      h1Element.innerText = people.name;
+
+      let.h2Element = document.createElement("h2");
+      h2Element.innerText = people.name;
+
+      content.appendChild(h1Element);
+      content.appendChild(h2Element);
+        
+      });
+      }
+    </script>
   </body>
 </html>
